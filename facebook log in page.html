@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="shortcut icon" href="fb icon.jpg" type="image/x-icon">
+    <style>
+        #box {
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 10px;
+            width: 300px;
+            height: 350px;
+            text-align: center;
+            /* margin-left: 200px; */
+            font-size: large;
+            box-shadow: 2px 2px 5px black;
+            margin-right: 200px;
+        }
+
+        input {
+            border: 1px solid gray;
+            border-radius: 3px;
+            /* box-shadow: 1px 2px 6px black; */
+            height: 42px;
+            width: 280px;
+            /* cursor: pointer; */
+
+        }
+
+        #login {
+            background-color: blue;
+            color: white;
+            border-radius: 3px;
+            height: 42px;
+            width: 280px;
+            border: 1px solid gray;
+            cursor: pointer;
+            /* box-shadow: 5px 5px 5px ; */
+        }
+
+        #fp {
+            border: 1px solid white;
+            border-radius: 3px;
+            box-shadow: 5px 5px 5px whitesmoke;
+            height: 42px;
+            width: 280px;
+            /* text-decoration: underline; */
+            color: blue;
+            background-color: white;
+            /* border-bottom-color: gray; */
+            cursor: pointer;
+        }
+
+        #ca {
+            color: white;
+            background-color: green;
+            height: 42px;
+            width: 200px;
+            /* margin: 0px 0px 0px 0px; */
+            cursor: pointer;
+        }
+
+
+        #div1 {
+            /* margin-top: 400px;  */
+            margin: auto;
+            /* width: 4px; */
+            /* display:block; */
+
+        }
+
+        #div0 {
+            display: flex;
+            /* margin-top:0px; */
+            /* margin-right: 200px; */
+            padding: 200px;
+        }
+
+        .flex {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div0">
+        <div id="div1">
+            <h1 style="color: blue;font-size:70px; margin-top:px;">facebook</h1>
+            <p style="font-size: 30px;">Connect with friends and the world<br>around you on Facebook.</p>
+        </div>
+        <div id="box">
+            <form action="">
+                <input type="text" placeholder="Email or phone number"><br><br>
+                <input type="password" placeholder="Password"><br><br>
+                <button id="login">Login</button><br><br>
+                <button id="fp">Forgot password?</button>
+                <div style="display:flex ;padding:2px;">
+                    <hr style="width:45%">
+                    <div>or</div>
+                    <hr style="width:45%">
+                </div>
+                <button id="ca">Create new account</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
